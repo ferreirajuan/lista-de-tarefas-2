@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-size: 10px;
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none !important;
+}
+
+main {
+    background-color: #2a2a2a;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main section {
+    padding: 1.6rem 2.4rem 5.5rem 2.4rem;
+    border-radius: 1.2rem;
+    background-color: #191f28;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 75.6rem;
+
+}
+
+main section .title-container {
+    width: 100%;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+    justify-content: center;
+}
+
+main section .title-container h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #FFF;
+}
+
+main section form {
+    width: 100%;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+}
+
+main section form input {
+    font-size: 1.6rem;
+    padding: .9rem 1.2rem;
+    background-color: #343b47;
+    border-radius: .5rem;
+    flex: 1;
+}
+
+main section form button {
+    background-color: #24395d;
+    color:#FFF;
+    padding: .9rem 2.4rem;
+    border-radius: .4rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: opacity .5s ease;
+}
+
+main section form button:hover {
+    opacity: 0.7;
+}
+
+
+main section ul {
+    width: 100%;
+}
+
+main section ul li {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: .2rem #24395d;
+   padding: 1.35rem 1.6rem;
+}
+
+main section ul li.checked {
+    background-color: #1a9b47;
+}
+
+main section ul li .item-title-container {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+main section ul li .item-title-container input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 1.9rem;
+    height: 1.9rem;
+    border: .2rem solid #FFF;
+    border-radius: .2rem;
+}
+
+main section ul li .item-title-container input[type="checkbox"]:checked {
+    background-image: url("./assets/check.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+main section ul li.checked .item-title-container span {
+    text-decoration: line-through;
+}
+
+main section ul li .item-title-container input[type="text"] {
+    font-size: 1.2rem;
+    padding: .9rem 1.2rem;
+    background-color: #343b47;
+    border-radius: .5rem;
+    color: #FFF;
+}
+
+main section ul li .item-title-container span {
+    margin-left: .8rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #FFF;
+}
+
+main section ul li  .item-buttons-container {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+main section ul li .delete-button {
+    background-color: #c31717;
+    color: #FFF;
+    font-weight: 400;
+    border-radius: .8rem;
+    padding: .4rem .8rem;
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    cursor: pointer;
+    transition: opacity .5s ease;
+}
+
+main section ul li .delete-button:hover {
+    opacity: 0.7;
+}
+
+main section ul li .delete-button span {
+    font-size: 1.2rem;
+}
+
+
+main section ul li .edit-button {
+    border-radius: .4rem;
+    padding: .2rem;
+    background-color: #24395d;
+    cursor: pointer;
+    transition: opacity .5s ease;
+}
+
+main section ul li .edit-button:hover {
+    opacity: 0.7;;
+}
+
+main section ul li .confirm-button {
+    background-color: #1a9b47;
+    color: #FFF;
+    font-weight: 400;
+    border-radius: .8rem;
+    padding: .4rem .8rem;
+    cursor: pointer;
+    transition: opacity .5s ease;
+}
+
+main section ul li .delete-button:hover {
+    opacity: 0.7;
+}
