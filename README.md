@@ -12,7 +12,7 @@ Este é um projeto simples de **Lista de Tarefas (To-Do List)** desenvolvido com
 
 ## 📸 Preview
 
-![Preview do projeto](./assets/preview.png)
+![Preview do projeto](./assets/preview.PNG)
 
 > Você pode adicionar uma imagem da tela do app aqui para mostrar como ele se parece.
 
